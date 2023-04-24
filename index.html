@@ -6,13 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cards animation</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="./style.css">
-=======
-    <link rel="stylesheet" href="./public/css/style.css">
->>>>>>> 2478b9a214168aad4208121ed15139e202385c27
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="./app.js" defer></script>
+    <style>
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f3942;
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+body .group {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 10px 0;
+}
+body .group .item {
+  width: 15vw;
+  height: 50vh;
+  margin: 1vw;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  border-radius: 3vw;
+}
+body .group .item .img {
+  border-radius: 2vw;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: 75vh;
+  position: relative;
+}
+    </style>
 </head>
 
 <body>
