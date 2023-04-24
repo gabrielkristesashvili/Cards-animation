@@ -12,8 +12,8 @@ body {
   align-items: center;
   justify-content: center;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 body .group {
   text-align: center;
@@ -37,4 +37,4 @@ body .group .item .img {
   background-position: center;
   background-size: 75vh;
   position: relative;
-}/*# sourceMappingURL=style.css.map */
+}
